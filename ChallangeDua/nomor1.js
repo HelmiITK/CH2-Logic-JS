@@ -6,8 +6,8 @@ function changeWord(selectedText, changeText, text) {
 const kalimat1 = "Aku jadi lega kudengar kalau kamu sudah menikah, aku terlambat bilang suka kepadamu";
 const kalimat2 = "Ku dengar kamupun sekarang punya anak, tak sanggup memanggilmu Farewell masa mudaku";
 
-const selectedText1 = "menikah" // memilih kata menikah untuk diubah di state changeText1
-const changeText1 = "Jualan Es batu" // akan merubah kata menikah menjadi Jualan Es batu dari state selectedText1 
+const selectedText1 = "menikah"; // memilih kata menikah untuk diubah di state changeText1
+const changeText1 = "Jualan Es batu"; // akan merubah kata menikah menjadi Jualan Es batu dari state selectedText1 
 
 const selectedText2 = "anak";
 const changeText2 = "uang";
