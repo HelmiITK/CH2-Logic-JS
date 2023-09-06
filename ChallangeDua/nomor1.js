@@ -1,3 +1,5 @@
+// Pada function ini akan mengubah dari parameter selectedText kemudain di ubah dengan parameter changeText dan mengembalikan
+// nilai sebuah kalimat dengan kata yang sudah diubah 
 function changeWord(selectedText, changeText, text) {
     const result = text.replace(selectedText, changeText);
     return result;
@@ -6,14 +8,10 @@ function changeWord(selectedText, changeText, text) {
 const kalimat1 = "Aku jadi lega kudengar kalau kamu sudah menikah, aku terlambat bilang suka kepadamu";
 const kalimat2 = "Ku dengar kamupun sekarang punya anak, tak sanggup memanggilmu Farewell masa mudaku";
 
-const selectedText1 = "menikah"; // memilih kata menikah untuk diubah di state changeText1
-const changeText1 = "Jualan Es batu"; // akan merubah kata menikah menjadi Jualan Es batu dari state selectedText1 
-
-const selectedText2 = "anak";
-const changeText2 = "uang";
-
-const result1 = changeWord(selectedText1, changeText1, kalimat1); 
+//mengubah kata lega dengan senang lalu melakukan deklarasi pada result1 kemudian menjalankan function di atas
+const result1 = changeWord("lega", "senang", kalimat1);
 console.log(result1);
 
-const result2 = changeWord(selectedText2, changeText2, kalimat2);
-console.log(result2);
+//mengubah kata anak dengan uang lalu melakukan deklarasi pada result2 kemudian menjalankan function di atas
+const result2 = changeWord("anak", "uang", kalimat2);
+console.log(result2)
