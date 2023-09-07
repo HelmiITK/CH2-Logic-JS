@@ -19,10 +19,11 @@ function getAngkaTerbesarKedua(array) {
 
 const dataArray1 = [9, 4, 7, 7, 4, 3, 2, 2, 8];
 console.log(getAngkaTerbesarKedua(dataArray1));
+console.log(typeof(getAngkaTerbesarKedua(dataArray1)));
 console.log("--------------------------------")
 
-const dataArray2 = [9, 4, 7, 7, 4, 3, 2, 2, 8];
-console.log(getAngkaTerbesarKedua(0)); // Output ini error karena tidak memanggil variabel yang sudah kita deklarasi pada dataArray2 sehingga fungsi pada line 6 tidak dapat dijalankan
+// const dataArray2 = [9, 4, 7, 7, 4, 3, 2, 2, 8];
+// console.log(getAngkaTerbesarKedua(0)); // Output ini error karena tidak memanggil variabel yang sudah kita deklarasi pada dataArray2 sehingga fungsi pada line 6 tidak dapat dijalankan
 
-const dataArray3 = [9, 4, 7, 7, 4, 3, 2, 2, 8];
-console.log(getAngkaTerbesarKedua()); // Output ini error karena function pada getAngkaTerbesarKedua tidak dapat membaca panjang dari sebuah array (banyak data)
+// const dataArray3 = [9, 4, 7, 7, 4, 3, 2, 2, 8];
+// console.log(getAngkaTerbesarKedua()); // Output ini error karena function pada getAngkaTerbesarKedua tidak dapat membaca panjang dari sebuah array (banyak data)
